@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your description here">
+    <meta name="keywords" content="sprovaten, project">
+    <meta name="author" content="Tekle Jankhoteli">
+    <title>Sprivaten</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./responsive.css">
+  </head>
+  <body>
+    <!-- header and main page -->
+    <main class="main-container">
+      <header>
+        <div class="header-nav">
+          <h1 class="header-logo">Sprivaten</h1>
+          <!-- Desktop Headerr -->
+         
+            <ul class="header-for-desktop-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+              <li id="search-icon1">
+                <a id="search-icon" href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#5f6368"
+                  >
+                    <path
+                      d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li id="shoping-cart">
+                <a href="#">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#5f6368"
+                  >
+                    <path
+                      d="m480-560-56-56 63-64H320v-80h167l-64-64 57-56 160 160-160 160ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm400 0q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80ZM40-800v-80h131l170 360h280l156-280h91L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68.5-39t-1.5-79l54-98-144-304H40Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li id="menu-icon"><img src="./assets/menu.svg" alt="menu" /></li>
+
+            </ul>
+
+         <!-- mobile menu -->
+        </div>
+        <ul class="header-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+
+      <div class="main-page">
+        <div class="main-page-description">
+          <h2>Dive More Customers Through Digital</h2>
+          <p>
+            We know how large objects will act, but things on a small scale.
+          </p>
+
+          <div class="main-page-btn">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-light">Light</button>
+          </div>
+        </div>
+
+          <form class="main-page-form" action="#">
+            <label for="appointment"></label>
+              <h3>Book Appointment</h3>
+            </label>
+
+            <label for="name"
+              >name
+              <span class="asterisk">*</span>
+            </label>
+            <input type="text" id="name" name="name" placeholder="Full Name" required />
+
+            <label for="email"
+              >Email
+              <span class="asterisk">*</span>
+            </label>
+
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required />
+
+            <label for="department"
+              >Department
+              <span class="asterisk">*</span>
+            </label>
+
+            <select name="department" id="service"  required>
+              <option value="Please Select">Please Select</option>
+              <option value="law department">Law Departmenty</option>
+              <option value="administration department">
+                Administration Departmenty
+              </option>
+              <option value="commerciale department">
+                Commercial Departmenty
+              </option>
+            </select>
+
+            <label for="time"
+              >Time
+              <span class="asterisk">*</span>
+            </label>
+            <select name="Time" id="time" required>
+              <option value="Please Select">Please Select</option>
+              <option value="time">5:00 pm</option>
+              <option value="time">18:30pm</option>
+              <option value="time">02:50pm</option>
+            </select>
+
+            <button>Book Appointment</button>
+          </form>
+       
+      </div>
+    </main>
+<!-- section -->
+    <section>
+        <div class="section-titles">
+            <h4>WHY CHOOSE US</h4>
+            <p>Problems trying to resolve 
+                the conflict between the 
+                two major realms of Classical 
+                physics: Newtonian mechanics </p>
+        </div>
+
+        <div class="section-card-container">
+            <div class="section-cards">
+
+                <div class="section-cards-title">
+                    <img src="./assets/peopleIcon.svg" alt="">
+                    <p>Business Growing</p>
+                </div>
+
+                <div class="section-cards-description">
+                    <p>-  The best products start 
+                        with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        
+
+       
+            <div class="section-cards">
+
+                <div class="section-cards-title">
+                    <img src="./assets/badgeIcon.svg" alt="">
+                    <p>Business Growing</p>
+                </div>
+
+                <div class="section-cards-description">
+                    <p>-  The best products start 
+                        with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a href="#">Learn More</a>
+                </div>
+              </div>
+
+            <div class="section-cards">
+
+                <div class="section-cards-title">
+                    <img src="./assets/tableIcon.svg" alt="">
+                    <p>Business Growing</p>
+                </div>
+
+                <div class="section-cards-description">
+                    <p>-  The best products start 
+                        with Figma</p>
+                        <p>- Design with real data</p>
+                        <p>- Lightning fast prototyping</p>
+                        <p>- Fastest way to organize</p>
+                        <p>- Work at the speed of thought.</p>
+                        <a href="#">Learn More</a>
+                </div>
+           
+
+       
+    </section>
+<!-- information -->
+   <div class="information-div">
+
+    <div class="information-div-header">
+      <h5>We take care costumers our all expert here.</h5>
+      <p>Problems trying to resolve the conflict between the two major realms of Classical physics:Newtonian mechanics</p>
+    </div>
+    <div class="information-div-imgSection">
+      <img src="./assets/cardimgdesk.png" alt="">
+    </div>
+   </div>
+<!-- article for rating -->
+
+   <article class="article-rate">
+
+    <div class="article-rate-title">
+      <h6>What clients Say</h6>
+      <p>Problems trying to resolve the conflict between the two major realms of Classical physics:Newtonian mechanics</p>
+    </div>
+
+    <div class="article-rate-cards">
+
+      <div class="article-rate-card">
+        <img src="./assets/stars.png" alt="rate">
+        <p>Slate helps you see how many 
+          more days you need to work to 
+          reach your financial goal.</p>
+
+          <div class="article-rate-card-designer">
+            <img src="./assets/maniconImg.png" alt="">
+            <div class="article-rate-card-designer-name">
+              <p>Regina Miles</p>
+              <span>Designer</span>
+            </div>
+          </div>
+      </div>
+   
+      <div class="article-rate-card">
+        <img src="./assets/stars.png" alt="rate">
+        <p>Slate helps you see how many 
+          more days you need to work to 
+          reach your financial goal.</p>
+
+          <div class="article-rate-card-designer">
+            <img src="./assets/maniconImg (2).png" alt="">
+            <div class="article-rate-card-designer-name">
+              <p>Regina Miles</p>
+              <span>Designer</span>
+            </div>
+          </div>
+      
+    </div>
+
+      <div class="article-rate-card">
+        <img src="./assets/stars.png" alt="rate">
+        <p>Slate helps you see how many 
+          more days you need to work to 
+          reach your financial goal.</p>
+
+          <div class="article-rate-card-designer">
+            <img src="./assets/maniconImg.png" alt="">
+            <div class="article-rate-card-designer-name">
+              <p>Regina Miles</p>
+              <span>Designer</span>
+            </div>
+          </div>
+      </div>
+    </div>
+   </article>
+
+<!-- article for team -->
+   <article class="article-team">
+    <div class="article-team-title">
+      <h5>Meet Our Team</h5>
+      <p>Problems trying to resolve 
+        the conflict between the 
+        two major realms of Classical 
+        physics: Newtonian mechanics </p>
+    </div>
+
+    <div class="article-team-cards">
+
+      <div class="article-team-card">
+        <img class="article-team-card-img" src="./assets/manImg.png" alt="">
+
+        <div class="article-team-card-info">
+          <p class="article-team-card-info-name">Rodney Stratton</p>
+          <span>CEO</span>
+
+          <div class="article-team-card-info-socialLinks">
+            <img src="./assets/fb.svg" alt="">
+            <img src="./assets/insta.svg" alt="">
+            <img src="./assets/twitter.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="article-team-card">
+        <img class="article-team-card-img" src="./assets/womenImg.png" alt="">
+
+        <div class="article-team-card-info">
+          <p class="article-team-card-info-name">Rodney Stratton</p>
+          <span>CEO</span>
+
+          <div class="article-team-card-info-socialLinks">
+            <img src="./assets/fb.svg" alt="">
+            <img src="./assets/insta.svg" alt="">
+            <img src="./assets/twitter.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="article-team-card">
+        <img class="article-team-card-img" src="./assets/girlImg.png" alt="">
+
+        <div class="article-team-card-info">
+          <p class="article-team-card-info-name">Rodney Stratton</p>
+          <span>CEO</span>
+
+          <div class="article-team-card-info-socialLinks">
+            <img src="./assets/fb.svg" alt="">
+            <img src="./assets/insta.svg" alt="">
+            <img src="./assets/twitter.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+   </article>
+
+<!-- appointment section -->
+   <div class="appointment-section">
+    <div class="appointment-section-title">
+      <p>Contact Us</p>
+      <h5>Make an Appointment</h5>
+    </div>
+  
+    <form action="appointment-section-form">
+      <div class="appointment-section-form-firstDiv">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+      </div>
+  
+      <div class="appointment-section-form-secondDiv">
+        <select name="department" id="service" required>
+          <option value="Please Select">Please Select</option>
+          <option value="law department">Law Department</option>
+          <option value="administration department">Administration Department</option>
+          <option value="commerciale department">Commercial Department</option>
+        </select>
+  
+        <select name="Time" id="time" required>
+          <option value="Please Select">Please Select</option>
+          <option value="5:00 pm">5:00 pm</option>
+          <option value="18:30 pm">18:30 pm</option>
+          <option value="02:50 pm">02:50 pm</option>
+        </select>
+      </div>
+  
+      <input class="appoinment-message" type="text" placeholder="Additional Message">
+      <button type="submit">Book Appointment</button>
+    </form>
+  </div>
+
+  <!-- contact us section -->
+  <div class="contactUs-section">
+    <div class="contactUs-section-title">
+      <h4>Consulting Agency For Your Business</h4>
+      <p>the quick fox jumps over the lazy dog</p>
+    </div>
+
+<button>Contact Us</button> 
+ </div>
+
+<!-- footer -->
+
+ <footer>
+  <div class="footer-logo-media">
+    <h2 class="footer-logo">Sprivaten</h2>
+  
+    <div class="footer-media">
+
+      <div class="footerFB">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_993_190)">
+            <path d="M23.04 0H0.96C0.429 0 0 0.429 0 0.96V23.04C0 23.571 0.429 24 0.96 24H23.04C23.571 24 24 23.571 24 23.04V0.96C24 0.429 23.571 0 23.04 0ZM20.268 7.005H18.351C16.848 7.005 16.557 7.719 16.557 8.769V11.082H20.145L19.677 14.703H16.557V24H12.816V14.706H9.687V11.082H12.816V8.412C12.816 5.313 14.709 3.624 17.475 3.624C18.801 3.624 19.938 3.723 20.271 3.768V7.005H20.268Z" fill="#00A2E8"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_993_190">
+              <rect width="24" height="24" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>
+        
+      </div>
+
+      <div class="footerInsta">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_993_192)">
+            <path d="M12.0016 5.84738C8.59659 5.84738 5.84859 8.59538 5.84859 12.0004C5.84859 15.4054 8.59659 18.1534 12.0016 18.1534C15.4066 18.1534 18.1546 15.4054 18.1546 12.0004C18.1546 8.59538 15.4066 5.84738 12.0016 5.84738ZM12.0016 15.9994C9.79959 15.9994 8.00259 14.2024 8.00259 12.0004C8.00259 9.79838 9.79959 8.00138 12.0016 8.00138C14.2036 8.00138 16.0006 9.79838 16.0006 12.0004C16.0006 14.2024 14.2036 15.9994 12.0016 15.9994ZM18.4066 4.16138C17.6116 4.16138 16.9696 4.80338 16.9696 5.59838C16.9696 6.39338 17.6116 7.03538 18.4066 7.03538C19.2016 7.03538 19.8436 6.39638 19.8436 5.59838C19.8438 5.4096 19.8068 5.22263 19.7347 5.04818C19.6625 4.87373 19.5567 4.71522 19.4232 4.58173C19.2897 4.44825 19.1312 4.34241 18.9568 4.27028C18.7823 4.19815 18.5954 4.16114 18.4066 4.16138ZM23.9956 12.0004C23.9956 10.3444 24.0106 8.70337 23.9176 7.05038C23.8246 5.13038 23.3866 3.42638 21.9826 2.02238C20.5756 0.615376 18.8746 0.180376 16.9546 0.0873762C15.2986 -0.00562382 13.6576 0.00937622 12.0046 0.00937622C10.3486 0.00937622 8.70759 -0.00562382 7.05459 0.0873762C5.13459 0.180376 3.43059 0.618376 2.02659 2.02238C0.619588 3.42938 0.184588 5.13038 0.0915876 7.05038C-0.0014124 8.70638 0.0135876 10.3474 0.0135876 12.0004C0.0135876 13.6534 -0.0014124 15.2974 0.0915876 16.9504C0.184588 18.8704 0.622588 20.5744 2.02659 21.9784C3.43359 23.3854 5.13459 23.8204 7.05459 23.9134C8.71059 24.0064 10.3516 23.9914 12.0046 23.9914C13.6606 23.9914 15.3016 24.0064 16.9546 23.9134C18.8746 23.8204 20.5786 23.3824 21.9826 21.9784C23.3896 20.5714 23.8246 18.8704 23.9176 16.9504C24.0136 15.2974 23.9956 13.6564 23.9956 12.0004ZM21.3556 19.0744C21.1366 19.6204 20.8726 20.0284 20.4496 20.4484C20.0266 20.8714 19.6216 21.1354 19.0756 21.3544C17.4976 21.9814 13.7506 21.8404 12.0016 21.8404C10.2526 21.8404 6.50259 21.9814 4.92459 21.3574C4.37859 21.1384 3.97059 20.8744 3.55059 20.4514C3.12759 20.0284 2.86359 19.6234 2.64459 19.0774C2.02059 17.4964 2.16159 13.7494 2.16159 12.0004C2.16159 10.2514 2.02059 6.50138 2.64459 4.92338C2.86359 4.37738 3.12759 3.96938 3.55059 3.54938C3.97359 3.12938 4.37859 2.86238 4.92459 2.64338C6.50259 2.01938 10.2526 2.16038 12.0016 2.16038C13.7506 2.16038 17.5006 2.01938 19.0786 2.64338C19.6246 2.86238 20.0326 3.12638 20.4526 3.54938C20.8756 3.97238 21.1396 4.37738 21.3586 4.92338C21.9826 6.50138 21.8416 10.2514 21.8416 12.0004C21.8416 13.7494 21.9826 17.4964 21.3556 19.0744Z" fill="#FF69B4"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_993_192">
+              <rect width="24" height="24" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>
+             
+      </div>
+
+      <div class="footerTwitter">
+        <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_993_194)">
+          <path d="M24.0004 2.46545C23.1188 2.85138 22.1594 3.12914 21.1711 3.23732C22.1971 2.61876 22.9655 1.64153 23.332 0.488976C22.3692 1.07019 21.3145 1.47775 20.2146 1.69357C19.7549 1.19485 19.1989 0.797551 18.5813 0.526422C17.9636 0.255294 17.2976 0.116149 16.6247 0.117657C13.902 0.117657 11.7123 2.35727 11.7123 5.10561C11.7123 5.49155 11.7584 5.87749 11.8333 6.24881C7.7565 6.03245 4.12048 4.05598 1.7032 1.02987C1.26274 1.79332 1.03193 2.66258 1.03477 3.54724C1.03477 5.27811 1.902 6.80432 3.22444 7.70192C2.44511 7.67077 1.68402 7.45339 1.00308 7.06746V7.12886C1.00308 9.55267 2.69143 11.5613 4.94161 12.0233C4.51912 12.1346 4.08449 12.1916 3.64797 12.1928C3.32817 12.1928 3.02565 12.1607 2.72024 12.1168C3.34257 14.0933 5.15482 15.5289 7.3128 15.5756C5.62444 16.9176 3.50968 17.7071 1.2134 17.7071C0.801397 17.7071 0.421085 17.6924 0.0263672 17.6457C2.20452 19.0637 4.78891 19.8824 7.5721 19.8824C16.6074 19.8824 21.5514 12.2864 21.5514 5.69329C21.5514 5.47693 21.5514 5.26057 21.537 5.04421C22.4936 4.33374 23.332 3.45368 24.0004 2.46545Z" fill="#00A0C1"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_993_194">
+          <rect width="24" height="19.7647" fill="white" transform="translate(0 0.117645)"/>
+          </clipPath>
+          </defs>
+          </svg>          
+      </div>
+
+      <div class="footerYT">
+        <svg width="25" height="18" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_964_14838)">
+          <path d="M23.9699 2.93166C23.8335 2.3987 23.5663 1.91276 23.1951 1.52249C22.824 1.13221 22.3619 0.851291 21.855 0.707834C19.9884 0.176636 12.4879 0.176636 12.4879 0.176636C12.4879 0.176636 4.98729 0.176636 3.12071 0.707834C2.61385 0.851291 2.15172 1.13221 1.78057 1.52249C1.40941 1.91276 1.14225 2.3987 1.00582 2.93166C0.657288 4.93335 0.488155 6.96501 0.500644 8.99993C0.488155 11.0348 0.657288 13.0665 1.00582 15.0682C1.14225 15.6012 1.40941 16.0871 1.78057 16.4774C2.15172 16.8676 2.61385 17.1486 3.12071 17.292C4.98729 17.8232 12.4879 17.8232 12.4879 17.8232C12.4879 17.8232 19.9884 17.8232 21.855 17.292C22.3619 17.1486 22.824 16.8676 23.1951 16.4774C23.5663 16.0871 23.8335 15.6012 23.9699 15.0682C24.3184 13.0665 24.4876 11.0348 24.4751 8.99993C24.4876 6.96501 24.3184 4.93335 23.9699 2.93166ZM10.0904 12.7813V5.21852L16.3152 8.99993L10.0904 12.7813Z" fill="#E42F08"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_964_14838">
+          <rect width="24" height="17.6842" fill="white" transform="translate(0.5 0.157837)"/>
+          </clipPath>
+          </defs>
+          </svg>
+      </div>
+
+    </div>
+  </div>
+
+<!-- footer main section -->
+  <div class="footer-main-section">'
+    <ul class="footer-company-info">
+      <li>Company Info</li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Carrier</a></li>
+      <li><a href="#">We are hiring</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+
+    <ul class="footer-Legal">
+      <li>Legal</li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Carrier</a></li>
+      <li><a href="#">We are hiring</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+
+
+    <ul class="footer-features">
+      <li>Features</li>
+      <li><a href="#">business Marketing</a></li>
+      <li><a href="#">User Analytic</a></li>
+      <li><a href="#">Live Chat</a></li>
+      <li><a href="#">unlimited Support</a></li>
+    </ul>
+
+
+    <ul class="footer-resources">
+      <li>Resources</li>
+      <li><a href="#">IOS & Android</a></li>
+      <li><a href="#">Watch a Demo</a></li>
+      <li><a href="#">Customers</a></li>
+      <li><a href="#">API</a></li>
+    </ul>
+
+    <div class="footer-subscribe-div">
+      <p>Get In Touch</p>
+      <div class="subscribe-container">
+        <input type="email" placeholder="Enter your email" class="subscribe-input">
+        <button type="submit" class="subscribe-button">Subscribe</button>
+    </div>
+    <span>Lorem ipsum dolor sit amet.</span>
+    </div>
+  </div>
+ </footer>
+<!-- additional footer -->
+ <div class="bottom-footer">
+  <p>Made With Love By Figmaland All Right Reserved </p>
+ </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
